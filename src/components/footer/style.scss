@@ -1,0 +1,15 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .icon-holder{
+        display: flex;
+        flex-direction: row;
+        
+    }
+}

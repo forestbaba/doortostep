@@ -1,0 +1,108 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	// width: 100%;
+	background-color: #f6f7fb;
+	// margin-right: 150px;
+	// margin-left: 100px;
+	height: 90vh;
+	// border-radius: 20px;
+
+	background-image: url('./work.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+
+	h1 {
+		text-align: left;
+		margin-bottom: 1rem;
+		font-size: 3.5rem;
+		padding: 0;
+		font-weight: 900;
+		position: absolute;
+		left: 0;
+		color: white;
+		text-shadow: 8px 8px 8px rgba(156, 154, 154, 10);
+		padding: 20px;
+	}
+
+	// img {
+	// 	// background-position: center;
+	// 	// background-repeat: no-repeat;
+	// 	// background-size: cover;
+	//     // height: 100%;
+
+	//     background-position-x: center;
+	//     background-position-y: center;
+	//     background-size: cover;
+	//     background-attachment: initial;
+	//     background-origin: initial;
+	//     background-clip: initial;
+	//     background-color: initial;
+	//     height: 70vh;
+    // }
+    
+    .dots{
+        width: 100%;
+        	background-image: url('./dots.png');
+    }
+
+	.left {
+		width: 35%;
+		padding-left: 60px;
+		padding-right: 60px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+
+		.input_holder {
+			display: flex;
+			flex-direction: column;
+
+			input {
+				width: 500px;
+				height: 30px;
+				border-width: 0px;
+				padding: 5px;
+			}
+		}
+
+		h2 {
+			font-size: 25px;
+		}
+
+		button {
+			padding: 15px;
+			border-radius: 25px;
+			text-align: center;
+			width: 200px;
+			position: relative;
+			align-self: center;
+			background-color: #38d78b;
+			color: white;
+			border-width: 0px;
+		}
+	}
+
+	.right {
+		width: 35%;
+		// background: rgba(56, 215, 139, 0.51);
+		height: 100%;
+		width: 40%;
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+
+		// img{
+		//     width: 100px;
+		//     height: 200px;
+		// }
+	}
+}
+@media (min-width: 1120px), (min-height: 630px) {
+	body {
+		background-size: auto;
+	}
+}

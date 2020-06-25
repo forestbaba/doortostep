@@ -1,0 +1,26 @@
+.tabs {
+
+    padding: 100px;
+
+    .active-buttons {
+        background-color: transparent;
+        border-width: 0px;
+        font-weight: bold;
+        border-bottom: 1px solid green;
+        padding-bottom: 15px;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    .buttons {
+        background-color: transparent;
+        border-width: 0px;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    .buttons:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

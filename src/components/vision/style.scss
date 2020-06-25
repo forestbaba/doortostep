@@ -1,0 +1,20 @@
+
+
+.vision{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 25px;
+
+    .p1{
+        font-weight: bold;
+        color: black;
+        font-size: 15px;
+        width: 35%;
+        padding-right: 50px;
+    }
+    .p2{
+        width: 35%;
+    }
+}
