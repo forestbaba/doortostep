@@ -1,20 +1,21 @@
-
-
-.aboutus{
+.vision {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
 
-    .p1{
+
+    .p1 {
         font-weight: bold;
         color: black;
         font-size: 15px;
         width: 35%;
         padding-right: 50px;
     }
-    .p2{
+
+    .p2 {
         width: 35%;
     }
 }

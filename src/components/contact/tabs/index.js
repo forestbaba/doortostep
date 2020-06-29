@@ -21,11 +21,13 @@ const Tab = () => {
     }
     return (
         <div className='tabs'>
-            {
-                buttons.map((item, index) => {
-                    return (<button onClick={handleClick.bind(this, item.id)} className={viewId === item.id ? 'active-buttons' : 'buttons'}>{item.title}</button>)
-                })
-            }
+            <div className='button-holder'>
+                {
+                    buttons.map((item, index) => {
+                        return (<button onClick={handleClick.bind(this, item.id)} className={viewId === item.id ? 'active-buttons' : 'buttons'}>{item.title}</button>)
+                    })
+                }
+            </div>
 
             {
                 viewId == 1 ? (<Aboutus />) : (<Vision />)

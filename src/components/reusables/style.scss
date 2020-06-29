@@ -1,0 +1,51 @@
+.input-field-container {
+
+font-family: 'Raleway',sans-serif;
+
+
+    input {
+        width: 400px;
+        border: 0px;
+        background-color: gainsboro;
+        border-radius: 3px;
+        outline: none;
+        ;
+        padding: 15px;
+        // font-weight: bold;
+        margin-top: 20px;
+
+    }
+
+    textarea {
+        width: 400px;
+        border: 0px;
+        background-color: gainsboro;
+        border-radius: 3px;
+        outline: none;
+        ;
+        padding: 15px;
+        // font-weight: bold;
+        margin-top: 20px;
+        min-height: 200px;
+
+    }
+}
+
+.round_corner {
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border-width: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 150px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.round_corner:hover {
+    cursor: pointer;
+    font-weight: bold;
+
+}

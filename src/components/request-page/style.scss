@@ -1,0 +1,73 @@
+.form-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+
+    // font-family: 'open sans';
+
+
+    .form-holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 45vw;
+        // padding-left: 60px;
+        // padding-right: 60px;
+        overflow: hidden;
+
+        h1 {
+            // font-family: 'Open Sans2';
+            // font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bold;
+        }
+
+        .round-button {
+            position: relative;
+
+        }
+
+        .terms {
+            p {
+                padding: 20px 0px;
+                font-size: medium;
+                font-weight: 500;
+
+            }
+        }
+    }
+
+    .image-holder {
+        width: 45vw;
+        overflow: hidden;
+
+        img {
+            width: 40vw;
+            height: 80vh;
+        }
+
+        .fainted {
+            width: 40.3%;
+            background-color: rgba(0, 0, 0, 0.51);
+            position: absolute;
+            height: 81.1%;
+            //  margin-top: 33px;
+
+            h1{
+                margin-bottom: 1rem;
+                font-size: 3.5rem;
+                padding: 50px 30px;
+                font-weight: 900;
+                position: absolute;
+                left: 0;
+                color: white;
+            }
+        }
+    }
+
+}

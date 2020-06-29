@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.scss'
 import dots from './dots.png'
-import PictureWall from '../picture-wall/index'
+// import PictureWall from '../picture-wall/index'
 import Tab from '../tabs'
 import { Tabs } from 'antd'
 

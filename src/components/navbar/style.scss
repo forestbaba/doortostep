@@ -1,3 +1,4 @@
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -7,29 +8,48 @@
     align-items: center;
     // padding-right: 60px;
     padding-left: 20px;
+    box-shadow: 2px 2px #e5e4e4;
+    margin-bottom: 50px;
+	font-family: 'Raleway',sans-serif;
 
-    p{
+
+    p {
         border-radius: 50px;
         background-color: #38D78B;
         width: 30px;
         height: 30px;
     }
 
-    .menu_icon{
+    .menu_icon {
         background-color: #E5E5E5;
         border-radius: 50px;
         padding: 6px;
     }
-    .how_it_works{
-        background-color: transparent;
-        border-width: 0px;
-        height: 20px;
-        margin-right: 50px;
 
-       
+    .nav_links {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .how_it_works {
+            background-color: transparent;
+            border-width: 0px;
+            // height: 100px;
+            margin-right: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            color: black;
+
+
+        }
+
+        .how_it_works:hover {
+            cursor: pointer;
+            font-weight: bold;
+
+        }
     }
-    .how_it_works:hover {
-        cursor: pointer;
-    }
+
 
 }

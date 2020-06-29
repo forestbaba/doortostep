@@ -38,19 +38,8 @@ class PicturesWall extends React.Component {
                 name: 'image.png',
                 status: 'done',
                 url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
-            },
-            {
-                uid: '-4',
-                name: 'image.png',
-                status: 'done',
-                url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
-            },
-            {
-                uid: '-5',
-                name: 'image.png',
-                status: 'error',
-            },
-        ],
+            }]
+          
     };
 
     handleCancel = () => this.setState({ previewVisible: false });
@@ -86,7 +75,7 @@ class PicturesWall extends React.Component {
                     onPreview={this.handlePreview}
                     onChange={this.handleChange}
                 >
-                    {fileList.length >= 8 ? null : uploadButton}
+                    {fileList.length >= 4 ? null : uploadButton}
                 </Upload>
                 <Modal
                     visible={previewVisible}

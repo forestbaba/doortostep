@@ -1,0 +1,30 @@
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway',
+        sans-serif;
+
+    .design {
+        width: 35%;
+
+        img {
+            width: 500px;
+            height: 450px;
+        }
+
+        .fainted {
+            width: 33%;
+            background-color: rgba(0, 0, 0, 0.51);
+            position: absolute;
+            height: 62.1%;
+            //  margin-top: 33px;
+        }
+    }
+
+    .form {
+        width: 35%;
+    }
+
+}
